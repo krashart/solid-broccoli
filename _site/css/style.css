@@ -14,9 +14,10 @@ a:hover {
 }
 
 nav ul {
+  align-items: center;
   list-style: none;
-  padding: 0;
-  margin: 0;
+  padding: 10;
+  margin: 10;
   display: flex;
 }
 nav li {

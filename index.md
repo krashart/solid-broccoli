@@ -1,6 +1,6 @@
 ---
 layout: layout.html
-title: 11tySite
+title: IM415 Lab 3 
 eleventyNavigation:
      key: Home
 ---

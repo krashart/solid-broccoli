@@ -4,5 +4,8 @@ title: Contacts
 eleventyNavigation:
      key: Contacts
 ---
-<h1>{{ title }}</h1>
+<div class="heading">
+
+# {{ title }}
+</div>
 <p>This is a contact page!</p>

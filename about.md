@@ -4,7 +4,10 @@ title: About Me
 eleventyNavigation:
      key: About Me
 ---
+<div class="heading">
+
 # {{ title }}
+</div>
 This is another page to test.
 
 This is the second paragraph.

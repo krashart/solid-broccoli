@@ -10,9 +10,14 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: darkolivegreen;
+  color: rgb(48, 66, 70);
 }
 
+nav {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  justify-content: right;
+}
 nav ul {
   align-items: center;
   list-style: none;
@@ -25,6 +30,11 @@ nav li {
 }
 nav a {
   color: darkblue;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

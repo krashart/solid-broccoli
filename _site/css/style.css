@@ -5,13 +5,18 @@ body {
   background-color: rgba(124, 116, 155, 0.123);
 }
 
+h1 {
+  font-size: 2.5rem;
+  text-shadow: darkgray 2px 2px;
+}
+
 a {
   color: rgb(0, 0, 0);
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
-  color: rgb(48, 66, 70);
+  color: rgb(254, 110, 110);
 }
 
 nav {
@@ -21,10 +26,9 @@ nav {
   background-color: rgba(152, 152, 247, 0.454);
 }
 nav ul {
+  font-family: georgia, tahoma, sans-serif;
   align-items: center;
   list-style: none;
-  padding: 20;
-  margin: 10;
   display: flex;
 }
 nav li {
@@ -34,14 +38,27 @@ nav a {
   color: darkblue;
 }
 
+.title {
+  display: grid;
+  justify-content: center;
+  margin: 100px 0px 50px;
+  text-align: center;
+}
+
 .heading {
   display: flex;
   justify-content: center;
+  background-color: rgb(255, 255, 255)
+}
+
+img {
+  width: 20vw;
 }
 
 .picsRow1 {
   display: flex;
   justify-content: center;
+  align-items: flex-end;
 }
 
 .pics {
@@ -49,3 +66,10 @@ nav a {
 
 }
 /*# sourceMappingURL=style.css.map */
+/* media queries */
+
+@media screen and (max-width: 1350px) {
+  .picsRow1{
+    display: block;
+  }
+}

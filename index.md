@@ -9,7 +9,15 @@ eleventyNavigation:
 <h1>{{ title }}</h1>
 </div>
 
-<h2>Temples To Visit List</h2>
+<div class="title">
+
+## Greetings! 
+
+*Welcome to my site.*
+
+## Temples To Visit List
+
+</div>
 
 <div class="picsRow1">
 <div class="pics">
@@ -26,15 +34,12 @@ eleventyNavigation:
 <div class="pics">
 <img src="/img/brihadishvara.jpg" alt="Picture Of Brihadishvara Temple, Thanjavur, India - Go to Avinash Uppuluri's profile
 Avinash Uppuluri @ unsplash.com">
-<p>Angkor Thorn, Cambodia</p>
+<p>Brihadishvara Temple, Thanjavur, India</p>
 </div>
 <div class="pics">
 <img src="/img/godwin.jpg" alt="Picture of Hampi, Karnataka, India - Photo by Godwin Bephin on Unsplash">
-<p>Chichén Itzá, Mérida, Mexico</p>
+<p>Hampi, Karnataka, India</p>
 </div>
 </div>
 
 
-## Greetings! 
-
-Welcome to my site.

@@ -1,11 +1,12 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
-  background-color: #dededf;
+  margin: 0% 15%;
+  background-color: rgba(124, 116, 155, 0.123);
 }
 
 a {
-  color: #000;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 a:hover {
@@ -17,11 +18,12 @@ nav {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
   justify-content: right;
+  background-color: rgba(152, 152, 247, 0.454);
 }
 nav ul {
   align-items: center;
   list-style: none;
-  padding: 10;
+  padding: 20;
   margin: 10;
   display: flex;
 }
@@ -37,4 +39,13 @@ nav a {
   justify-content: center;
 }
 
+.picsRow1 {
+  display: flex;
+  justify-content: center;
+}
+
+.pics {
+  margin: 10px;
+
+}
 /*# sourceMappingURL=style.css.map */

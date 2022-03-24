@@ -9,7 +9,7 @@ eleventyNavigation:
 
 # {{ title }}
 </div>
-<p>Get a hold of us for more information.</p>
+<p class="info">Get a hold of us for more information.</p>
 
 <form>
   <label for="fname">First name:</label><br>
@@ -20,5 +20,5 @@ eleventyNavigation:
   <input type="tel" id="phone" name="phone" placeholder="123-456-7890"
   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
   <small>Format: 123-456-7890</small><br><br>
-  <input type="submit" value="Submit">
+  <input class="button" type="submit" value="Submit">
 </form> 

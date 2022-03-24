@@ -23,12 +23,13 @@ Places I am going to go.
 
 Places I have been.
 
-1. Canada
-2. France
-3. Belgium
-4. Netherlands
-5. Cuba
-6. England (layover only)
+1. Toronto
+2. Mississauga
+3. Oakville
+4. Etobicoke
+5. Thunder Bay
+6. Montreal
+7. Vancouver/Victoria
 
 
 <!-- space is need for the divs to be compiled><-->

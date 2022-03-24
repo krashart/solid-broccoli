@@ -2,12 +2,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   margin: 0% 15%;
-  background-color: rgba(124, 116, 155, 0.123);
+  background-color: rgba(216, 213, 227, 0.123);
 }
 
 h1 {
   font-size: 2.5rem;
   text-shadow: darkgray 2px 2px;
+}
+
+h2 {
+  color: darkred;
 }
 
 a {
@@ -41,8 +45,9 @@ nav a {
 .title {
   display: grid;
   justify-content: center;
-  margin: 100px 0px 50px;
+  padding: 100px 0px 50px;
   text-align: center;
+  background-color: rgb(255, 255, 255);
 }
 
 .heading {
@@ -53,24 +58,94 @@ nav a {
 
 img {
   width: 25vw;
+  box-shadow: 2px 2px 5px black;
 }
 
 .picsRow1 {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  background-color: rgb(255, 255, 255);
+}
+
+.picsRow1 p {
+  color: blue;
+  font-size: 1.5rem;
 }
 
 .pics {
-  margin: 10px;
-
+  margin: 40px;
 }
+
+/* about page */
+.lists {
+  background-color: white;
+  padding: 0 0 100px 0;
+}
+
+.lists p {
+  color: blue;
+  font-size: 1.5rem;
+  padding: 30px 0px 0px;
+  margin: 0;
+}
+.lists li {
+  color: darkred;
+  font-size: 1.25rem;
+}
+
+/* contact page */
+
+.info {
+  color: blue;
+  font-size: 1.5rem;
+  background-color: white;
+  padding: 30px 0px 0px;
+  margin: 0;
+}
+
+.info p {
+  
+  background-color: white;
+}
+
+form {
+  padding: 30px 0px 100px;
+  margin: 0;
+  background-color: white;
+}
+
+form label {
+  color: darkred;
+  font-size: 1.25rem;
+}
+
+.button {
+  background-color: rgba(255, 255, 255, 0);
+  color: black;
+  border: 3px solid #000000; 
+  width: 100px;
+  height: 30px;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #f2fc68;
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */
 /* media queries */
 
 @media screen and (max-width: 1100px) {
   .picsRow1{
     display: block;
+  }
+  .picsRow1 p {
+    font-size: 1.25rem;
   }
   img {
     width: 75%;

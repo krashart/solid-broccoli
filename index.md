@@ -10,7 +10,7 @@ eleventyNavigation:
 
 <div class="pics">
 
-<img src="./_site/images/angkorThorn.jpg" alt="Picture Of Angkor Thorn, Cambodia">
+<img src="/_site/images/angkorThorn.jpg" alt="Picture Of Angkor Thorn, Cambodia">
 
 <p>This is a paragraph!</p>
 </div>

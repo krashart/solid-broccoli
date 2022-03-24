@@ -52,7 +52,7 @@ nav a {
 }
 
 img {
-  width: 20vw;
+  width: 25vw;
 }
 
 .picsRow1 {
@@ -68,8 +68,11 @@ img {
 /*# sourceMappingURL=style.css.map */
 /* media queries */
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 1100px) {
   .picsRow1{
     display: block;
+  }
+  img {
+    width: 75%;
   }
 }

@@ -42,4 +42,15 @@ Avinash Uppuluri @ unsplash.com">
 </div>
 </div>
 
+<div class="picsRow1">
+<div class="pics">
+<img src="/img/khajuraho.jpg" alt="Picture Of Khajuraho, Madhya Pradesh, India - Photo by Praniket Desai on Unsplash">
+<p>Khajuraho, Madhya Pradesh, India</p>
+</div>
+<div class="pics">
+<img src="/img/machu.jpg" alt="Picture of Machu Picchu, Peru. - Photo by Fábio Hanashiro on Unsplash">
+<p>Machu Picchu, Peru.</p>
+</div>
+</div>
+
 
